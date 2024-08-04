@@ -57,7 +57,7 @@
             "storage": "data.sqlite"
         }
     },
-    "APPSTATEPATH": "appstate.json",
+    "APPSTATEPATH": "fbstate.json",
     "FCAOption": {
         "forceLogin": true,
         "listenEvents": true,

@@ -1,2 +1,2 @@
-worker: node index.js
+worker: node mirai.js
 web: npm start

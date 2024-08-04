@@ -20,7 +20,7 @@ if (nodeVersion.major < 14) {
 //========= Create website for dashboard/uptime =========//
 ///////////////////////////////////////////////////////////
 
-const PORT = process.env.PORT || 10000; // Ensure PORT is set
+const PORT = process.env.PORT || 0.0.0.0; // Ensure PORT is set
 
 const dashboard = http.createServer((req, res) => {
     res.writeHead(200, { "Content-Type": "text/plain" });
